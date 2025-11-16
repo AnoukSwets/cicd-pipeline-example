@@ -9,5 +9,5 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo text to terminal
+      - name: echo text to terminal
         run: echo "hello world"
