@@ -11,14 +11,8 @@ jobs:
     steps:
       - name: Show runner info
         run: |
-          echo "=== CPU Info ==="
-          lscpu
-          echo
-          echo "=== Memory Info ==="
-          free -h
-          echo
           echo "=== Current Directory ==="
           pwd
           echo
           echo "=== Directory Contents ==="
-          ls -al
+          ls
